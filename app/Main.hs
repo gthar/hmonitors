@@ -14,8 +14,8 @@ main :: IO ()
 main = do
     args <- getArgs
     output <- case args of
-        ["battery"] -> queryBattery
-        ["volume" ] -> queryVolume
-        ["net"    ] -> queryNet
+        ["bat"] -> queryBattery
+        ["vol"] -> queryVolume
+        ["net"] -> queryNet
         _ -> usage
     putStrLn output
