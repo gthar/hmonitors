@@ -1,4 +1,4 @@
 .stack-work/
 *~
-rilla-monitors.cabal
+hmonitors.cabal
 stack.yaml.lock

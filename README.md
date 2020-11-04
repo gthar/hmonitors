@@ -1,4 +1,4 @@
-# rilla-monitors
+# hmonitors
 
 This is a collection of monitors the I use as widgets in xmobar.
 Currently implemented:

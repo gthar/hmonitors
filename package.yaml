@@ -1,4 +1,4 @@
-name:       rilla-monitors
+name:       hmonitors
 version:    0.1.0.0
 license:    BSD3
 author:     "Ricard Illa"
@@ -21,7 +21,7 @@ library:
   source-dirs: src
 
 executables:
-  monitor-query:
+  hmonitors-query:
     main:        Main.hs
     source-dirs: app
     ghc-options:
@@ -32,4 +32,4 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - rilla-monitors
+    - hmonitors
