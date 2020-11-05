@@ -16,6 +16,7 @@ dependencies:
 - process
 - regex-compat
 - split
+- time
 
 library:
   source-dirs: src
