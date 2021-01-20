@@ -3,8 +3,8 @@
 This is a collection of monitors the I use as widgets in xmobar.
 Currently implemented:
 
-* battery (throug acpi)
-* volume (throuugh alsa)
+* battery (through acpi)
+* volume (through alsa)
 * network (through network-manager)
 
 They are all one-shot scripts, intended for xmobar to run periodically.
