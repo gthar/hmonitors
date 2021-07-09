@@ -2,7 +2,7 @@ name:       hmonitors
 version:    0.1.0.0
 license:    BSD3
 author:     "Ricard Illa"
-maintainer: "r.illa.pujagut@gmail.com"
+maintainer: "rilla@monotremata.xyz"
 copyright:  "2020 Ricard Illa Pujagut"
 
 extra-source-files:
