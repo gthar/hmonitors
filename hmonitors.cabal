@@ -1,0 +1,26 @@
+name:       hmonitors
+version:    0.1.0.0
+license:    BSD3
+author:     Ricard Illa
+maintainer: rilla@monotremata.xyz
+extra-source-files: README.md
+cabal-version: >= 1.8
+
+library
+  exposed-modules: Monitors.Battery
+                   Monitors.Date
+                   Monitors.Net
+                   Monitors.Volume
+  hs-source-dirs:  src
+  build-depends:   base
+                 , containers
+                 , process
+                 , regex-compat
+                 , split
+                 , time
+
+executable hmonitors-query
+  main-is:        Main.hs
+  hs-source-dirs: app
+  build-depends:  hmonitors, base
+  ghc-options: -Wall -Werror -O2 -threaded -rtsopts -with-rtsopts=-N

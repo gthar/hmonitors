@@ -1,4 +1,3 @@
 .stack-work/
 *~
-hmonitors.cabal
 stack.yaml.lock
