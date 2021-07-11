@@ -7,7 +7,8 @@ extra-source-files: README.md
 cabal-version: >= 1.8
 
 library
-  exposed-modules: Monitors.Battery
+  exposed-modules: Monitors.Common
+                   Monitors.Battery
                    Monitors.Date
                    Monitors.Net
                    Monitors.Volume
